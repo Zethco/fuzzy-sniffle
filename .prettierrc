@@ -1,0 +1,22 @@
+{
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "overrides": [
+    {
+      "files": "package.json",
+      "options": {
+        "printWidth": 9999
+      }
+    },
+    {
+      "files": "*.{json,md,prettierrc}",
+      "options": {
+        "useTabs": false,
+        "singleQuote": false
+      }
+    }
+  ]
+}
