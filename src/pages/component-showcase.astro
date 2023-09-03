@@ -1,0 +1,16 @@
+---
+import { Button } from "components/Button";
+import Container from "components/shared/Container.astro";
+import BaseLayout from "layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="component showcase!">
+  <section class="relative pt-32 lg:pt-36">
+    <Container className={"flex flex-col lg:flex-row gap-10 lg:gap-12"}>
+      <h1 class="text-white">Button</h1>
+      <Button>
+        <span class="hidden sm:flex relative z-[5]">Get Started</span>
+      </Button>
+    </Container>
+  </section>
+</BaseLayout>
