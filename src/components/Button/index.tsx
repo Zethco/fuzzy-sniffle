@@ -1,7 +1,19 @@
-export const Button = () => {
+import { cn } from 'lib/utils';
+
+import { classes, variants } from './classes';
+
+interface Props extends React.ComponentProps<'button'> {
+  variant?: 'primary' | 'secondary';
+}
+
+export function Button({ className, variant = 'primary', ...props }: Props) {
   return (
-    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-      button
-    </button>
+    <button
+      className={cn(...classes, className, {
+        [variants.primary]: variant === 'primary',
+        [variants.default]: variant !== 'primary',
+      })}
+      {...props}
+    />
   );
-};
+}
