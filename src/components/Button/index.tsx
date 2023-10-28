@@ -6,7 +6,7 @@ interface Props extends React.ComponentProps<'button'> {
   variant?: 'primary' | 'secondary';
 }
 
-export function Button({ className, variant = 'primary', ...props }: Props) {
+export function Button({ className, variant = 'primary', ...props }: Readonly<Props>) {
   return (
     <button
       className={cn(...classes, className, {
