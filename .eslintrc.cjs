@@ -7,6 +7,11 @@ module.exports = {
     'plugin:typescript-sort-keys/recommended',
     'plugin:astro/recommended',
   ],
+  env: {
+    browser: true,
+    amd: true,
+    node: true
+  }
   overrides: [
     {
       files: ['*.astro'],
