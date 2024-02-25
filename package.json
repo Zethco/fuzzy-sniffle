@@ -45,6 +45,7 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-typescript-sort-keys": "^3.0.0",
     "husky": "^8.0.3",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "sharp": "^0.33.2"
   }
 }
