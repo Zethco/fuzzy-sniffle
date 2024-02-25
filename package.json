@@ -12,12 +12,12 @@
     "commit": "commit"
   },
   "dependencies": {
-    "@astrojs/react": "^3.0.0",
-    "@astrojs/tailwind": "^5.0.0",
+    "@astrojs/react": "3.0.10",
+    "@astrojs/tailwind": "5.1.0",
     "@storyblok/astro": "^3.0.0",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "astro": "^3.0.3",
+    "astro": "4.4.4",
     "astro-i18next": "1.0.0-beta.21",
     "clsx": "^2.0.0",
     "react": "^18.0.0",
